@@ -11,7 +11,7 @@ __main  FUNCTION
 		;--------------Q2
 		VLDR.F32 S0, =4.72	;input value of x in tanx (in radians)
 		VLDR.F32 S1, =20.0	;
-		MOV R1, #10		;j (no of terms considered in the series)
+		MOV R1, #20		;j (no of terms considered in the series)
 		VLDR.F32 S3, =0.0	;COUNTER K
 		MOV R3, #0		;counter for loop
 		VLDR.F32 S4, =0.0	;SUM (*****you get cosx here*** )
